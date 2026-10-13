@@ -1,0 +1,43 @@
+{
+  "name": "sorin-bulk-apikey",
+  "version": "1.0.0",
+  "description": "Bulk-create heysorin.ai accounts with auto-minted Agent API keys, served to 9Router as an OpenAI-compatible key pool. Zero dependencies, CDP-driven, end-to-end.",
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "sorin-bulk": "src/cli.js",
+    "sorin-pool": "src/pool-adapter.js"
+  },
+  "main": "src/sorin.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "create": "node src/cli.js --count 1",
+    "pool": "node src/pool-adapter.js",
+    "connect-9router": "node src/connect-9router.js"
+  },
+  "keywords": [
+    "sorin",
+    "heysorin",
+    "sahara-ai",
+    "api-key",
+    "bulk",
+    "account-creator",
+    "openai-compatible",
+    "9router",
+    "cdp",
+    "browser-automation",
+    "llm",
+    "agent"
+  ],
+  "files": [
+    "src",
+    "docs",
+    "examples",
+    "i18n",
+    "brand",
+    "README.md",
+    "LICENSE"
+  ]
+}

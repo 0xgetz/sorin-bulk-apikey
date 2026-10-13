@@ -1,0 +1,37 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="sorin-bulk icon">
+  <defs>
+    <linearGradient id="ibg" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="0.55" stop-color="#111C3A"/>
+      <stop offset="1" stop-color="#0A2E3A"/>
+    </linearGradient>
+    <linearGradient id="ibeam" x1="26" y1="28" x2="102" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34D399"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="ikey" x1="78" y1="40" x2="112" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="128" height="128" rx="30" fill="url(#ibg)"/>
+  <rect x="4" y="4" width="120" height="120" rx="26" fill="none" stroke="#1E3A8A" stroke-opacity="0.6" stroke-width="1.5"/>
+
+  <ellipse cx="64" cy="60" rx="40" ry="40" fill="none" stroke="#1E3A8A" stroke-opacity="0.7" stroke-width="1.5"/>
+  <ellipse cx="64" cy="60" rx="40" ry="17" fill="none" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.5" transform="rotate(28 64 60)"/>
+
+  <path d="M78 40c-7-6-22-6-29 1-7 6-5 15 3 18 9 4 22 3 27 9 4 6 1 15-8 17-8 2-17 1-22-3"
+        stroke="url(#ibeam)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <g transform="translate(76 62)">
+    <circle cx="18" cy="12" r="7" fill="none" stroke="url(#ikey)" stroke-width="4"/>
+    <rect x="0" y="10" width="14" height="4.5" rx="2.25" fill="url(#ikey)"/>
+    <rect x="4" y="14" width="3" height="6" rx="1.5" fill="url(#ikey)"/>
+  </g>
+
+  <circle cx="36" cy="86" r="4" fill="#34D399"/>
+  <circle cx="64" cy="94" r="4" fill="#22D3EE"/>
+  <circle cx="92" cy="86" r="4" fill="#818CF8"/>
+</svg>

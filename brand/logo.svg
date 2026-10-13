@@ -1,0 +1,48 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="sorin-bulk logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="0.55" stop-color="#111C3A"/>
+      <stop offset="1" stop-color="#0A2E3A"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="120" y1="120" x2="392" y2="392" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34D399"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="key" x1="300" y1="150" x2="430" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 236) scale(210)">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="98" fill="none" stroke="#1E3A8A" stroke-opacity="0.55" stroke-width="2"/>
+  <circle cx="256" cy="236" r="210" fill="url(#glow)"/>
+
+  <!-- orbit rings: a pool of connections -->
+  <ellipse cx="256" cy="236" rx="150" ry="150" fill="none" stroke="#1E3A8A" stroke-opacity="0.7" stroke-width="2"/>
+  <ellipse cx="256" cy="236" rx="150" ry="62" fill="none" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="2" transform="rotate(28 256 236)"/>
+  <ellipse cx="256" cy="236" rx="150" ry="62" fill="none" stroke="#818CF8" stroke-opacity="0.30" stroke-width="2" transform="rotate(-28 256 236)"/>
+
+  <!-- S monogram -->
+  <path d="M300 168c-26-20-78-22-104 2-24 22-18 54 12 66 34 14 78 12 96 34 16 20 4 52-30 60-30 8-62 2-78-12"
+        stroke="url(#beam)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- key -->
+  <g transform="translate(300 236)">
+    <circle cx="70" cy="46" r="26" fill="none" stroke="url(#key)" stroke-width="14"/>
+    <rect x="4" y="38" width="52" height="16" rx="8" fill="url(#key)"/>
+    <rect x="16" y="54" width="10" height="20" rx="5" fill="url(#key)"/>
+    <rect x="36" y="54" width="10" height="14" rx="5" fill="url(#key)"/>
+  </g>
+
+  <!-- pool nodes -->
+  <circle cx="150" cy="330" r="14" fill="#34D399"/>
+  <circle cx="256" cy="360" r="14" fill="#22D3EE"/>
+  <circle cx="362" cy="330" r="14" fill="#818CF8"/>
+</svg>
